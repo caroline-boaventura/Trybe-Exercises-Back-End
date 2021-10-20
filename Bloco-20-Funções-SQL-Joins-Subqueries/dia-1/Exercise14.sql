@@ -1,0 +1,4 @@
+SELECT 
+    EMPLOYEE_ID, FIRST_NAME, DAY(HIRE_DATE) AS DAY
+FROM
+    employees;

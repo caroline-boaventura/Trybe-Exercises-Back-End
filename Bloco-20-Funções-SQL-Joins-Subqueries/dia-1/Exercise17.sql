@@ -1,0 +1,7 @@
+SELECT 
+    LAST_NAME, HIRE_DATE
+FROM
+    employees
+WHERE
+    MONTH(HIRE_DATE) = 7
+        AND YEAR(HIRE_DATE) = 1987; 
